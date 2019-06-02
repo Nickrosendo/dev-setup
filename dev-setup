@@ -1,0 +1,37 @@
+Setup of development environment on new ubuntu
+
+1-download node lts through nvm: https://github.com/nvm-sh/nvm#installation-and-update
+
+2-download yarn: https://yarnpkg.com/en/docs/install#debian-stable
+
+3-download git: 
+	3.1 - open terminal: Ctrl + Alt + T
+	3.2 - update registry(require super user privileges): sudo apt update
+	3.3 - istall git: sudo apt-get install git
+
+4-install vscode: 
+	4.1 - get the vscode .deb option: https://code.visualstudio.com/download
+	4.2 - double click on the downloaded file of previous step, then click install
+	4.3 - install the following extensions: 
+		4.3.1 - Vetur(for Vuejs development)
+		4.3.2 - Eslint(for javascript code lint)
+		4.3.3 - Prettier(for javascript code format)
+		4.3.4 - vscodeicons(for good file iconography)
+		4.3.5 - Bracket Pair Colorizer(for better nesting visualization)
+		4.3.6 - Darktooth Theme(for nice color theme)
+		4.3.7 - ES7 React/Redux/GraphQl...(for React development)	
+
+5-install sublime: search for Sublime on Ubuntu Software, then click install
+
+6-install docker:
+	6.1 - open terminal: Ctrl + Alt + T
+	6.2 - update registry(require super user privileges): sudo apt update
+	6.3 - istall docker: sudo apt install docker.io
+	6.4 - set docker to run on OS startup:
+		6.4.1 - sudo systemctl start docker
+		6.4.2 - sudo systemctl enable docker
+	6.5 - check docker version: docker --version
+	6.6 - elevate docker user privileges(may need OS restart): sudo usermod -a -G docker $USER	
+
+7-install rust(may be outdated, if so, check the current rust book for instalation guide):	https://doc.rust-lang.org/1.5.0/book/installing-rust.html
+	8.1 - install gcc(some rust libs may require for dependencies compilation)
