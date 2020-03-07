@@ -74,7 +74,7 @@ https://doc.rust-lang.org/1.5.0/book/installing-rust.html
 ### 8.4 - install vim-plug: https://github.com/junegunn/vim-plug
 ### 8.5 - get vim the vim configuration template on: https://gist.github.com/Nickrosendo/12432136abbddc3157da0c7a2f3257fe
 ### 8.6 - paste the content of the template on your .vimrc and save the file
-### 8.7 - install plugins: `:Pluginstall`
+### 8.7 - install plugins: `:PlugInstall`
 ### 8.8 - copy minimalist colors folder to .vim/: `cp -r /home/$USER/.vim/plugged/minimalist/colors /home/$USER/.vim/`
 
 
