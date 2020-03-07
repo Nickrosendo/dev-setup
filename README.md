@@ -65,3 +65,15 @@ Search for Sublime on Ubuntu Software, then click install
 https://doc.rust-lang.org/1.5.0/book/installing-rust.html
 
 #### 7.1 - install gcc(some rust libs may require for dependencies compilation)
+
+
+## 8- install vim:
+### 8.1 - update registry(require super user privileges): sudo apt update
+### 8.2 - get vim-gnome through apt-get: sudo apt-get install vim-gnome
+### 8.3 - create vim configuration file .vimrc on /home/$USER: cd /home/$USER && touch .vimrc
+### 8.4 - install vim-plug: https://github.com/junegunn/vim-plug
+### 8.5 - get vim the vim configuration template on: https://gist.github.com/Nickrosendo/12432136abbddc3157da0c7a2f3257fe
+### 8.6 - paste the content of the template on your .vimrc and save the file
+### 8.7 - install plugins: `:Pluginstall`
+
+
