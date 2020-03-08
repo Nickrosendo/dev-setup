@@ -67,7 +67,7 @@ https://doc.rust-lang.org/1.5.0/book/installing-rust.html
 #### 7.1 - install gcc(some rust libs may require for dependencies compilation)
 
 
-## 8- install vim:
+## 8 - install vim:
 ### 8.1 - update registry(require super user privileges): sudo apt update
 ### 8.2 - get vim-gnome through apt-get: sudo apt-get install vim-gnome
 ### 8.3 - create vim configuration file .vimrc on /home/$USER: cd /home/$USER && touch .vimrc
@@ -77,4 +77,7 @@ https://doc.rust-lang.org/1.5.0/book/installing-rust.html
 ### 8.7 - install plugins: `:PlugInstall`
 ### 8.8 - copy minimalist colors folder to .vim/: `cp -r /home/$USER/.vim/plugged/minimalist/colors /home/$USER/.vim/`
 
-
+## 9 - install zsh: 
+### - 9.1 - https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
+### - 9.2 - install ohmyzsh: https://github.com/ohmyzsh/ohmyzsh
+### - 9.3 - set zsh theme: ZSH_THEME='clean'
