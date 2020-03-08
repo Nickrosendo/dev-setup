@@ -78,6 +78,11 @@ https://doc.rust-lang.org/1.5.0/book/installing-rust.html
 ### 8.8 - copy minimalist colors folder to .vim/: `cp -r /home/$USER/.vim/plugged/minimalist/colors /home/$USER/.vim/`
 
 ## 9 - install zsh: 
-### - 9.1 - https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
-### - 9.2 - install ohmyzsh: https://github.com/ohmyzsh/ohmyzsh
-### - 9.3 - set zsh theme: ZSH_THEME='clean'
+### 9.1 - https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
+### 9.2 - install ohmyzsh: https://github.com/ohmyzsh/ohmyzsh
+### 9.3 - set zsh theme: ZSH_THEME='clean'
+### 9.4 - set vim as default editor: `export EDITOR=$(which vim)`
+
+## 10 - install tmux: 
+### 10.1 - `sudo apt-get install tmux`
+### 10.2 - install tmux theme: https://github.com/gpakosz/.tmux
