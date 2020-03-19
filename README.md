@@ -1,5 +1,9 @@
 # Setup of development environment on new ubuntu instalation
 
+## 0- install build essentials:
+`sudo apt install build-essential`
+
+
 ## 1-download node lts through nvm:
 
 https://github.com/nvm-sh/nvm#installation-and-update
