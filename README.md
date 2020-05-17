@@ -90,3 +90,7 @@ https://doc.rust-lang.org/1.5.0/book/installing-rust.html
 ## 10 - install tmux: 
 ### 10.1 - `sudo apt-get install tmux`
 ### 10.2 - install tmux theme: https://github.com/gpakosz/.tmux
+
+## 11 - install studio3t:
+### 11.1 - download it in: https://studio3t.com/download/
+### 11.2 - setup a non-comercial license
