@@ -94,3 +94,6 @@ https://doc.rust-lang.org/1.5.0/book/installing-rust.html
 ## 11 - install studio3t:
 ### 11.1 - download it in: https://studio3t.com/download/
 ### 11.2 - setup a non-comercial license
+
+## 12 - install htop:
+### 12.1 - sudo apt install htop
