@@ -97,3 +97,9 @@ https://doc.rust-lang.org/1.5.0/book/installing-rust.html
 
 ## 12 - install htop:
 ### 12.1 - sudo apt install htop
+
+## 13 - install kubernetes:
+### 13.1 - install kubectl - https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-on-linux
+
+## 14 - install google cloud sdk:
+### 14.1 - https://cloud.google.com/sdk/install
