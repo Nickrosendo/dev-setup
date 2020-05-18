@@ -103,3 +103,6 @@ https://doc.rust-lang.org/1.5.0/book/installing-rust.html
 
 ## 14 - install google cloud sdk:
 ### 14.1 - https://cloud.google.com/sdk/install
+
+## 15 - install redis:
+### 15.1 - https://github.com/Nickrosendo/dev-setup/blob/master/README.md
