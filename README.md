@@ -95,12 +95,20 @@ https://doc.rust-lang.org/1.5.0/book/installing-rust.html
 ### 11.1 - download it in: https://studio3t.com/download/
 ### 11.2 - setup a non-comercial license
 
-## 12 - install htop: sudo apt install htop
+## 12 - install htop: 
+sudo apt install htop
 
-## 13 - install kubectl: https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-on-linux
+## 13 - install kubectl: 
+https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-on-linux
 
-## 14 - install google cloud sdk: https://cloud.google.com/sdk/install
+## 14 - install google cloud sdk: 
+https://cloud.google.com/sdk/install
 
-## 15 - install redis: https://github.com/Nickrosendo/dev-setup/blob/master/README.md
+## 15 - install redis: 
+https://github.com/Nickrosendo/dev-setup/blob/master/README.md
 
-## 16 - install virtualbox: https://www.virtualbox.org/wiki/Linux_Downloads
+## 16 - install virtualbox: 
+https://www.virtualbox.org/wiki/Linux_Downloads
+
+## 17 - install tldr: 
+npm install -g tldr
