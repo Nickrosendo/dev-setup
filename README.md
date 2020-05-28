@@ -112,3 +112,6 @@ https://www.virtualbox.org/wiki/Linux_Downloads
 
 ## 17 - install tldr: 
 npm install -g tldr
+
+## 18 - install fzf:
+sudo apt install fzf
