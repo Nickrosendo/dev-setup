@@ -115,3 +115,6 @@ npm install -g tldr
 
 ## 18 - install fzf:
 sudo apt install fzf
+
+## 19 - install silversearcher-ag:
+sudo apt install silversearcher-ag
