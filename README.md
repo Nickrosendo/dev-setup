@@ -118,3 +118,5 @@ sudo apt install fzf
 
 ## 19 - install silversearcher-ag:
 sudo apt install silversearcher-ag
+
+## 20 - install nginx
