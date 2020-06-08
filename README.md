@@ -2,7 +2,8 @@
 
 ## 0- install build essentials:
 `sudo apt install build-essential`
-
+## 0.1 - install xclip(allow copy to global clipboard buffer):
+`sudo apt install xclip`
 
 ## 1-download node lts through nvm:
 
