@@ -71,6 +71,20 @@ https://doc.rust-lang.org/1.5.0/book/installing-rust.html
 
 #### 7.1 - install gcc(some rust libs may require for dependencies compilation)
 
+## 8 - install neovim:
+### 8.1 - get neovim install command:
+https://github.com/neovim/neovim/wiki/Installing-Neovim#appimage-universal-linux-package
+### 8.2- set neovim path env variable(in .zshrc or .bashrc):
+export CUSTOM_NVIM_PATH=/usr/local/bin/nvim.appimage
+### 8.3 - set aliases to map nvim executable as neovim:
+set -u
+sudo update-alternatives --install /usr/bin/ex ex "${CUSTOM_NVIM_PATH}" 110
+sudo update-alternatives --install /usr/bin/vi vi "${CUSTOM_NVIM_PATH}" 110
+sudo update-alternatives --install /usr/bin/view view "${CUSTOM_NVIM_PATH}" 110
+sudo update-alternatives --install /usr/bin/vim vim "${CUSTOM_NVIM_PATH}" 110
+sudo update-alternatives --install /usr/bin/vimdiff vimdiff "${CUSTOM_NVIM_PATH}" 110
+### 8.4 - create neovim configuration folder:
+mkdir ~/.config/nvim
 
 ## 8 - install vim:
 ### 8.1 - update registry(require super user privileges): sudo apt update
